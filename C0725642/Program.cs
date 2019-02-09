@@ -20,6 +20,21 @@ namespace C0725642
         public string floorNumber;
 
     }
+    class Department
+    {
+        public Department aDepartment;
+        string DepartmentDescription;
+    }
+
+    class DepartmentStore
+    {
+        public void InitializeDeparments()
+        {
+
+        }
+    }
+
+
     class Elevator
     {
         Node FirstFloor;
